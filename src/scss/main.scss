@@ -1,3 +1,75 @@
-html {
-    color: red;
+.vue-wrapper {
+    padding: 30px;
+    min-height: 75%;
+    box-shadow: 0 5px 15px #a3a3a3;
+    margin: 28px 0;
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    ul {
+        box-shadow: 0 5px 15px #a3a3a3;
+        padding: 10px;
+        margin-bottom: 40px;
+
+        h2 {
+            font-weight: bold;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            list-style-type: none;
+            font-size: 18px;
+            padding: 5px 0;
+
+            &:hover {
+                background-color: lightgrey;
+            }
+            a {
+                color: #333333;
+                text-decoration: none;
+
+                &:hover {
+                    color: red
+                }
+            }
+        }
+    }
+
+    .btn {
+        background: #007ab2;
+        color: white;
+        border: 0;
+        margin: 15px 10px 30px 10px  !important;
+        text-shadow: none;
+        padding-top: 12px;
+        padding-bottom: 12px;
+
+        &:hover, &:active, &:focus {
+            background: #009de5;
+            color: white;
+        }
+    }
+
+
+
+    input[type="text"], input[type="tel"], input[type="numbers"], input[type="email"], input[type="search"], input[type="textarea"], .form__textarea, .form__textinput {
+        display: block;
+        font-size: 18px;
+        background: #f6f7f3;
+        border: 2px solid #e9eae0;
+        color: #222;
+        padding: 14px 14px;
+        border-radius: 0;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    
+}
+
+.margin {
+    margin: 40px 0;
 }

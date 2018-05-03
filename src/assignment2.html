@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue tutorial</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="vue-wrapper">
+        <div id="exercise">
+            <!-- 1) Show an alert when the Button gets clicked -->
+            <div style="margin-bottom:30px">
+                <button class="btn" v-on:click="clickAlert">Show Alert</button>
+            </div>
+            <!-- 2) Listen to the "keydown" event and store the value in a data property (hint: event.target.value gives you the value) -->
+            <div>
+                <input v-on:keydown="storeValue" type="text">
+                <p>{{ value }}</p>
+            </div>
+            <!-- 3) Adjust the example from 2) to only fire if the "key down" is the ENTER key -->
+            <div>
+                <input v-on:keydown.enter="storeValue" type="text">
+                <p>{{ value }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/assignment2.js"></script>
+</body>
+</html>

@@ -10,29 +10,20 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    
+
 <div class="container">
     <div class="vue-wrapper">
-        <div id="app">
-            <h1>{{ pageTitle }}</h1>
-            
-            <ul>
-                <h2 v-once>{{ sectionHeader }}</h2>
-                <li v-for="item in parts">
-                    <a v-bind:href="item.href">{{ item.name }}</a>
-                </li>
-            </ul>
+        <div id="partFour">
 
-            <ul>
-                <h2>{{ setSectionheader() }} </h2>
-                <li v-for="item in assignments">
-                    <a v-bind:href="item.href">{{ item.name }}</a></li>
-            </ul>
+            <button class="btn" @click="changeLink">Click to change the link</button>
+            <a :href="link">Link</a>
+            
+
         </div>
     </div>
 </div>
 
     
-<script src="js/Vuestuff.js"></script>
+<script src="js/partFour.js"></script>
 </body>
 </html>

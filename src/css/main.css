@@ -1,2 +1,50 @@
-html {
-  color: red; }
+.vue-wrapper {
+  padding: 30px;
+  min-height: 75%;
+  box-shadow: 0 5px 15px #a3a3a3;
+  margin: 28px 0; }
+  .vue-wrapper h1 {
+    margin-bottom: 30px; }
+  .vue-wrapper ul {
+    box-shadow: 0 5px 15px #a3a3a3;
+    padding: 10px;
+    margin-bottom: 40px; }
+    .vue-wrapper ul h2 {
+      font-weight: bold;
+      font-size: 26px;
+      margin-bottom: 20px; }
+    .vue-wrapper ul li {
+      list-style-type: none;
+      font-size: 18px;
+      padding: 5px 0; }
+      .vue-wrapper ul li:hover {
+        background-color: lightgrey; }
+      .vue-wrapper ul li a {
+        color: #333333;
+        text-decoration: none; }
+        .vue-wrapper ul li a:hover {
+          color: red; }
+  .vue-wrapper .btn {
+    background: #007ab2;
+    color: white;
+    border: 0;
+    margin: 15px 10px 30px 10px  !important;
+    text-shadow: none;
+    padding-top: 12px;
+    padding-bottom: 12px; }
+    .vue-wrapper .btn:hover, .vue-wrapper .btn:active, .vue-wrapper .btn:focus {
+      background: #009de5;
+      color: white; }
+  .vue-wrapper input[type="text"], .vue-wrapper input[type="tel"], .vue-wrapper input[type="numbers"], .vue-wrapper input[type="email"], .vue-wrapper input[type="search"], .vue-wrapper input[type="textarea"], .vue-wrapper .form__textarea, .vue-wrapper .form__textinput {
+    display: block;
+    font-size: 18px;
+    background: #f6f7f3;
+    border: 2px solid #e9eae0;
+    color: #222;
+    padding: 14px 14px;
+    border-radius: 0;
+    width: 100%;
+    margin: 15px 0; }
+
+.margin {
+  margin: 40px 0; }

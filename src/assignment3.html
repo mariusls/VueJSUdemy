@@ -10,29 +10,27 @@
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 <body>
-    
+
 <div class="container">
     <div class="vue-wrapper">
-        <div id="app">
-            <h1>{{ pageTitle }}</h1>
-            
-            <ul>
-                <h2 v-once>{{ sectionHeader }}</h2>
-                <li v-for="item in parts">
-                    <a v-bind:href="item.href">{{ item.name }}</a>
-                </li>
-            </ul>
-
-            <ul>
-                <h2>{{ setSectionheader() }} </h2>
-                <li v-for="item in assignments">
-                    <a v-bind:href="item.href">{{ item.name }}</a></li>
-            </ul>
+        <div id="exercise">
+            <!-- 1) Show a "result" of 'not there yet' as long as "value" is not equal to 37 - you can change "value" with the buttons. Print 'done' once you did it -->
+            <div>
+                <p>Current Value: {{ value }}</p>
+                <button @click="value += 5">Add 5</button>
+                <button @click="value += 1">Add 1</button>
+                <p>{{ result }}</p>
+            </div>
+            <!-- 2) Watch for changes in the "result" and reset the "value" after 5 seconds (hint: setTimeout(..., 5000) -->
+            <div>
+                <input type="text">
+                <p>{{ value }}</p>
+            </div>
         </div>
     </div>
 </div>
 
     
-<script src="js/Vuestuff.js"></script>
+<script src="js/assignment3.js"></script>
 </body>
 </html>
