@@ -8,7 +8,8 @@ new Vue ({
             { name: 'Part 1', href: '/partone.html' },
             { name: 'Part 2', href: '/parttwo.html' },
             { name: 'Part 3 - Two-Way-Binding & Computed Properties & Watch', href: '/partthree.html' },
-            { name: 'Part 4 - Shorthands', href: '/partfour.html' }
+            { name: 'Part 4 - Shorthands', href: '/partfour.html' },
+            { name: 'Part 5 - Dynamic styling with CSS classes', href: '/partfive.html' }
         ],
 
         assignments: [
