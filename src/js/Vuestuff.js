@@ -13,9 +13,10 @@ new Vue ({
         ],
 
         assignments: [
-            { name: 'Assignment 1', href: '/assignment1.html' },
-            { name: 'Assignment 2', href: '/assignment2.html' },
-            { name: 'Assignment 3', href: '/assignment3.html' }
+            { name: 'Assignment 1 - Outputting Data to Templates', href: '/assignment1.html' },
+            { name: 'Assignment 2 - Events', href: '/assignment2.html' },
+            { name: 'Assignment 3 - Reactive Properties', href: '/assignment3.html' },
+            { name: 'Assignment 4 - Styling', href: '/assignment4.html' }
         ]
     },
 

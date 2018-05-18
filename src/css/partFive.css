@@ -1,20 +1,15 @@
 .demo {
-    height: 200px;
-    width: 200px;
-    background-color: grey;
-    display: inline-block;
-    margin: 10px;
-
-}
+  height: 200px;
+  width: 200px;
+  background-color: grey;
+  display: inline-block;
+  margin: 10px; }
 
 .red {
-    background-color: red;
-}
+  background-color: red; }
 
 .green {
-    background-color: green;
-}
+  background-color: green; }
 
 .blue {
-    background-color: blue;
-}
+  background-color: blue; }
